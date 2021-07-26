@@ -1,22 +1,32 @@
 [
-    {
-        "icon": "bx bx-shopping-bag",
-        "count": "1,995",
-        "title": "Total sales"
-    },
-    {
-        "icon": "bx bx-cart",
-        "count": "2,001",
-        "title": "Daily visits"
-    },
-    {
-        "icon": "bx bx-dollar-circle",
-        "count": "$2,632",
-        "title": "Total income"
-    },
-    {
-        "icon": "bx bx-receipt",
-        "count": "1,711",
-        "title": "Total orders"
-    }
+  {
+    "display_name": "Products",
+    "route": "/products",
+    "icon": "bx bx-package",
+    "type": "default"
+  },
+  {
+    "display_name": "Orders",
+    "route": "/orders",
+    "icon": "bx bx-cart",
+    "type": "default"
+  },
+  {
+    "display_name": "cloud-Service",
+    "route": "/cloud-service",
+    "icon": "bx bx-cloud",
+    "type": "default"
+  },
+  {
+    "display_name": "billing",
+    "route": "/billing",
+    "icon": "bx bx-dollar",
+    "type": "submenu"
+  },
+  {
+    "display_name": "wallet",
+    "route": "/wallet",
+    "icon": "bx bx-wallet",
+    "type": "default"
+  }
 ]
